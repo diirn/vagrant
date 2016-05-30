@@ -36,4 +36,9 @@ mysql -u root -e "SHOW DATABASES";
 
 #Doenload starter dontent
 
+cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/diirn/vagrant/master/files/index.html
+
+sudo -u vagrant wget -q https://raw.githubusercontent.com/diirn/vagrant/master/files/index.html
+
 service httpd restart
